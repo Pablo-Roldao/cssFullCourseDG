@@ -1,12 +1,22 @@
-/* Typography is the way that text is arranged and presented. */
-
 body {
     padding: 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
-/* 
-input, button {
-    font: inherit
+
+a {
+   color: hsl(207, 44%, 49%);
 }
-*/
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(207, 44%, 49%, 0.8);
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
